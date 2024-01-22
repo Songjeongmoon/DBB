@@ -32,7 +32,6 @@ C:\Users\82105\source\repos\DBB\DBB\bin\Debug\System.Memory.xml
 C:\Users\82105\source\repos\DBB\DBB\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\82105\source\repos\DBB\DBB\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\82105\source\repos\DBB\DBB\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Users\82105\source\repos\DBB\DBB\obj\Debug\DBB.csproj.AssemblyReference.cache
 C:\Users\82105\source\repos\DBB\DBB\obj\Debug\MainWindow.g.cs
 C:\Users\82105\source\repos\DBB\DBB\obj\Debug\App.g.cs
 C:\Users\82105\source\repos\DBB\DBB\obj\Debug\DBB_MarkupCompile.cache
