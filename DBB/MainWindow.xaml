@@ -1,0 +1,31 @@
+﻿<Window x:Class="DBB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DBB"
+        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+        mc:Ignorable="d"
+        Title="MainWindow" MinWidth="800" MinHeight="450">
+    <Grid>
+        <!-- 나머지 XAML 코드는 동일합니다. -->
+
+        <!-- 데이터 불러오기 버튼 -->
+        <Button Content="데이터 불러오기" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="Auto"
+                Click="loadBtn_Click" AutomationProperties.Name="loadBtn"/>
+
+        <!-- 나머지 UI 요소들도 Width를 "Auto"로 변경하고 Margin을 적절히 조정합니다. -->
+        <ComboBox HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" Width="Auto" x:Name="DBComboList"/>
+        <TextBox x:Name="status" HorizontalAlignment="Left" Height="23" Margin="155,38,0,0" TextWrapping="Wrap" Text="Idle" VerticalAlignment="Top" Width="Auto"/>
+        <DatePicker x:Name="StartDay" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top" Width="Auto"/>
+        <ComboBox x:Name="StartHourList" HorizontalAlignment="Left" Margin="10,124,0,0" VerticalAlignment="Top" Width="Auto" />
+        <ComboBox x:Name="StartMinList" HorizontalAlignment="Left" Margin="75,124,0,0" VerticalAlignment="Top" Width="Auto" />
+        <TextBlock HorizontalAlignment="Left" Margin="62,144,0,0" TextWrapping="Wrap" Text="~" VerticalAlignment="Top"/>
+        <ComboBox x:Name="LastHourList" HorizontalAlignment="Left" Margin="15,165,0,0" VerticalAlignment="Top" Width="Auto"/>
+        <ComboBox x:Name="LastMinList" HorizontalAlignment="Left" Margin="75,165,0,0" VerticalAlignment="Top" Width="Auto"/>
+
+        <!-- 데이터 그리드 -->
+        <Grid x:Name="DataGrid" HorizontalAlignment="Stretch" Margin="10,200,10,10" VerticalAlignment="Stretch"/>
+    </Grid>
+</Window>
